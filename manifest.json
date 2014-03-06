@@ -1,16 +1,22 @@
 {
+  "manifest_version": 2,
+
   "name": "Rapid Reader",
-  "version": "0.1",
-  "description": "Speed read stuff",
-  "icons": { "128": "images/icon_128.png" },
-  "background": {
-    "persistent": false,
-    "scripts": ["main.js"]
-  },
-  "permissions": [],
+  "description": "Speed reads text",
+  "version": "1.0",
+
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+
   "browser_action": {
-    "default_title": "",
-    "default_icon": "icon_19.png",
+    "default_icon": "icon48.png",
     "default_popup": "popup.html"
-  }
+  },
+  
+  "permissions": [
+    "http://www.google.com/",
+    "activeTab"
+  ]
+
 }
