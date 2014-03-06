@@ -5,12 +5,12 @@
   "description": "Speed reads text",
   "version": "1.0",
 
-  "icons": { "16": "icon16.png",
-           "48": "icon48.png",
-          "128": "icon128.png" },
+  "icons": { "16": "icons/icon16.png",
+           "48": "icons/icon48.png",
+          "128": "icons/icon128.png" },
 
   "browser_action": {
-    "default_icon": "icon48.png",
+    "default_icon": "icons/icon48.png",
     "default_popup": "popup.html"
   },
   
