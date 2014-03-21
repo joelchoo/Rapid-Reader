@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
 chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
 
-  	words = request.selectedText.split(" ");
+  	words = request.selectedText.split(/\s/);
   	readOnInterval(initialSpeed);
     return false;
     
@@ -47,7 +47,7 @@ function readOnInterval(speed){
 	interval = setInterval(function(){
 
 		// Text is done being read
-		if(index >= words.length-1){
+		if(index >= words.length){
 			window.clearInterval(interval);
 			return;
 		}
