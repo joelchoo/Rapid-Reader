@@ -17,7 +17,17 @@
   "permissions": [
     "http://www.google.com/",
     "activeTab"
-  ]
+  ],
+
+  "commands": {
+
+     "_execute_browser_action": {
+            "suggested_key": {
+              "default": "Alt+R"
+            },
+            "description": "Rapid Read currently selected text"
+          }
+  }
 
 
 }

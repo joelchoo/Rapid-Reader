@@ -13,6 +13,11 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+/* Keyboard shortcut */
+chrome.commands.onCommand.addListener(function(command) {
+        chrome.tabs.executeScript(null, {file: "content_script.js"});
+      });
+
 // Listens for selected text to be sent from content_script
 chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
