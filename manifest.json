@@ -28,7 +28,5 @@
             },
             "description": "Rapid Read currently selected text"
           }
-  },
-
-  "options_page": "options.html"
+  }
 }
