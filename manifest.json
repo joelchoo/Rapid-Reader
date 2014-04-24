@@ -16,7 +16,8 @@
   
   "permissions": [
     "http://www.google.com/",
-    "activeTab"
+    "activeTab",
+    "storage"
   ],
 
   "commands": {
@@ -27,7 +28,7 @@
             },
             "description": "Rapid Read currently selected text"
           }
-  }
+  },
 
-
+  "options_page": "options.html"
 }

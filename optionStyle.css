@@ -1,0 +1,52 @@
+
+
+body {
+
+  min-width: 450px;
+  min-height: 250px;
+  overflow-x: hidden;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  color: #867e89;
+  background: #fff;
+}
+
+#title{
+  min-height: 100px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#wpmBox{
+  padding-left: 20px;
+}
+
+
+#wpmSetting{
+
+  margin-left: 62px;
+}
+
+#chunkSizeSetting{
+
+  margin-left: 5px;
+}
+
+
+#settingsPanel{
+
+  height: 142px;
+}
+
+input[type="text"]
+{
+    width:80px;
+    font-size: 20px;
+}
+  
+.box{
+
+  font-size: 25px;
+  height: 50px;
+
+}
+

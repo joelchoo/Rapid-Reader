@@ -1,9 +1,11 @@
 body {
 
-  font-family: Arial, Helvetica, sans-serif;
-  min-width: 357px;
+  min-width: 450px;
   min-height: 250px;
   overflow-x: hidden;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  color: #867e89;
+  background: #fff;
 }
 
 #title{
@@ -13,6 +15,7 @@ body {
 }
 
 #words{
+  color: #000;
   min-height: 100px;
   font-size: 30px;
   margin-top: 0px;
@@ -22,3 +25,17 @@ body {
 #changeSpeed{
   min-height: 50px;
 }
+
+#wpm{
+
+  padding-top: 13px;
+  padding-bottom: 7px;
+  float:left;
+}
+
+#settingsBtn{
+
+  float:right;
+}
+
+
