@@ -34,6 +34,8 @@ document.addEventListener('DOMContentLoaded', function () {
 	    }
 
 	    initSlider();
+	    document.getElementById("wpm").innerHTML = "WPM: "+wordsPerMin+"<br>"+"Chunks: "+chunkSize;
+
 
   
 	});	
@@ -41,8 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   	chrome.tabs.executeScript(null, {file: "content_script.js"});
 
-  	document.getElementById("wpm").innerHTML = "WPM: "+wordsPerMin+"<br>"+"Chunks: "+chunkSize;
-
+  	
 
 	});
 	    
