@@ -16,7 +16,6 @@
   },
   
   "permissions": [
-    "http://www.google.com/",
     "activeTab",
     "storage"
   ],
