@@ -11,8 +11,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-
-
 // Saves options to chrome.storage
 function save_options() {
   var wpm = document.getElementById('wpmSetting').value;

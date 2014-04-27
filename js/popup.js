@@ -7,7 +7,6 @@ var index = 0;
 
 
 
-
 // Execute content script as soon as DOM is loaded for extension box
 // (Each time icon is clicked)
 document.addEventListener('DOMContentLoaded', function () {
@@ -42,12 +41,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	});
 	    
-
-
-/* Keyboard shortcut */
-chrome.commands.onCommand.addListener(function(command) {
-        chrome.tabs.executeScript(null, {file: "js/content_script.js"});
-      });
 
 // Listens for selected text to be sent from content_script
 chrome.runtime.onMessage.addListener(
