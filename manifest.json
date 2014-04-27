@@ -24,7 +24,8 @@
 
      "_execute_browser_action": {
             "suggested_key": {
-              "default": "Alt+R"
+              "default": "Alt+R",
+              "mac": "Ctrl+R"
             },
             "description": "Rapid Read currently selected text"
           }
